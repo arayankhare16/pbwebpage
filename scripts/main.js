@@ -22,7 +22,7 @@ myImage.onclick = function()
 
         else {
         localStorage.setItem('name',myName);
-        myHeading.innerHTML = 'Enjoy the Read,' + myName;
+        myHeading.innerHTML = 'Enjoy the Read, ' + myName;
         }
     }
 
